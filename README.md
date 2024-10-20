@@ -1,7 +1,11 @@
 note : change the int1,int2,int3,int4 according to your gpio arduino connections.
+.
+.
+.
+.
 Project Overview: Wall-Climbing Robot
 The wall-climbing robot is a compact, versatile system designed to move on vertical surfaces by leveraging a suction mechanism. It uses an Arduino for control, an IR remote for user inputs, and an LN298N motor driver to manage the movement of the robot in four directions: forward, backward, left, and right.
-
+.
 Key Components:
 Arduino: Acts as the central control unit, receiving input signals from the IR remote and directing the motor drivers.
 LN298N Motor Driver: Controls four DC motors responsible for the directional movement (forward, backward, left, right). These motors are connected to the motor driver, which receives control signals from the Arduino.
