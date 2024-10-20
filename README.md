@@ -1,8 +1,3 @@
-note : change the int1,int2,int3,int4 according to your gpio arduino connections.
-.
-.
-.
-.
 Project Overview: Wall-Climbing Robot
 The wall-climbing robot is a compact, versatile system designed to move on vertical surfaces by leveraging a suction mechanism. It uses an Arduino for control, an IR remote for user inputs, and an LN298N motor driver to manage the movement of the robot in four directions: forward, backward, left, and right.
 .
@@ -22,3 +17,4 @@ User Input: The user sends directional commands via the IR remote.
 Directional Control: The Arduino processes the IR signals and activates the corresponding motors via the LN298N motor driver to move the robot in the desired direction.
 Suction Activation: The suction motor, controlled by the servo tester, is activated to create a vacuum that keeps the robot adhered to the wall.
 Movement on Wall: While the robot remains attached to the surface, it can move in any direction based on the user's input.
+note : change the int1,int2,int3,int4 according to your gpio arduino connections.
